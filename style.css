@@ -1,0 +1,814 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* footer */
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#footer {
+    background: #002147 !important;
+}
+
+#footer h5 {
+    padding-left: 10px;
+    /* border-left: 3px solid #eeeeee; */
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li {
+    padding: 3px 0;
+}
+
+#footer ul.social li a i {
+    margin-right: 5px;
+    font-size: 25px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.social li:hover a i {
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a {
+    text-align: justify;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.66;
+    padding: 0;
+    display: block;
+    line-height: 1;
+    margin-bottom: 14px;
+}
+
+#footer ul.social li a:hover {
+    color: #eeeeee;
+}
+
+#footer ul.quick-links li {
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+    padding: 3px 0;
+    margin-left: 5px;
+    font-weight: 700;
+
+}
+
+#footer ul.quick-links li a i {
+    margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+
+}
+
+@media (max-width:767px) {
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+/* ------------ */
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #133282;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.counter-area {
+    background-color: #fafafa;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.h3 {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.onetwo:hover {
+    background-color: #f83ca0;
+    ;
+    width: 25%;
+    border-radius: 2000px;
+    padding: 40px;
+    transition: 0.6s;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.counter_bgimg {
+    background-image: url(bg_img.webp);
+    /* url(bg3_img.webp); */
+    background-repeat: no-repeat;
+    background-position: left;
+    animation: shrink 2s infinite alternate;
+}
+
+
+.btn-text {
+    padding: 16px 35px;
+    /* background-color: #fdc800; */
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 700;
+    background-image: -webkit-linear-gradient(left, #133282, #f54b8a);
+    letter-spacing: 0px;
+    border-radius: 30px 5px 5px;
+    transition: 0.3s;
+}
+
+
+
+.btn-text:hover:before {
+    left: -10%;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -khtml-transition: all 0.3s ease 0s;
+}
+
+.btn-text:hover {
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #133282, #f54b8a);
+}
+
+.btn-text:hover:after {
+    left: -20%;
+}
+
+
+
+.theme-btn {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+    padding: 0;
+    border: 0;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.btn-text2 {
+    background-image: -webkit-linear-gradient(left, #133282, #f54b8a);
+    padding: 16px 10px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 7px;
+    display: inline-block;
+    line-height: 1;
+    /* font-size: 40px; */
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 35px 5px 5px;
+}
+
+
+
+.btn-text2:hover {
+    border-radius: 5px;
+    background-image: linear-gradient(right, #f54b8a, #133282);
+    opacity: 85%;
+}
+
+
+
+
+.main {
+    /* margin: 6% 0 0 36%; */
+    position: relative;
+    width: 25%;
+}
+
+.im {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(231, 187, 28);
+    overflow: hidden;
+    width: 100%;
+    /* height: 0; */
+    opacity: 0;
+    transition: .6s ease;
+    border-radius: 10px;
+}
+
+.overlay8 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #7665ff;
+    overflow: hidden;
+    width: 100%;
+    /* height: 0; */
+    opacity: 0;
+    transition: .6s ease;
+    border-radius: 10px;
+
+}
+
+.overlay9 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0eb582;
+    overflow: hidden;
+    width: 100%;
+    /* height: 0; */
+    opacity: 0;
+    transition: .6s ease;
+    border-radius: 10px;
+
+}
+
+.overlay10 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fd29c5;
+    overflow: hidden;
+    width: 100%;
+    /* height: 0; */
+    opacity: 0;
+    transition: .6s ease;
+    border-radius: 10px;
+
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(231, 52, 28);
+    overflow: hidden;
+    width: 100%;
+    /* height: 0; */
+    opacity: 0;
+    transition: .6s ease;
+    border-radius: 10px;
+
+}
+
+.overlay3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(123, 38, 242);
+    overflow: hidden;
+    width: 100%;
+    /* height: 0; */
+    opacity: 0;
+    transition: .6s ease;
+    border-radius: 10px;
+
+}
+
+.main:hover .overlay1 {
+    height: 100%;
+    opacity: 1;
+}
+
+
+.main:hover .overlay3 .mama {
+    transform: translateY(100px);
+    transition: .6s ease;
+}
+
+.main:hover .overlay1 .mama {
+    transform: translateY(100px);
+    transition: .6s ease;
+}
+
+.main:hover .overlay9 .mama {
+    transform: translateY(100px);
+    transition: .6s ease;
+}
+
+.main:hover .overlay10 .mama {
+    transform: translateY(100px);
+    transition: .6s ease;
+}
+
+.main:hover .overlay2 .mama {
+    transform: translateY(100px);
+    transition: .6s ease;
+}
+
+.main:hover .overlay8 .mama {
+    transform: translateY(100px);
+    transition: .6s ease;
+}
+
+.main:hover .overlay2 {
+    height: 100%;
+    opacity: 1;
+}
+
+.main:hover .overlay8 {
+    height: 100%;
+    opacity: 1;
+}
+
+.main:hover .overlay9 {
+    height: 100%;
+    opacity: 1;
+}
+
+.main:hover .overlay10 {
+    height: 100%;
+    opacity: 1;
+}
+
+.main:hover .overlay3 {
+    height: 100%;
+    opacity: 1;
+}
+
+
+
+
+.rating_div1 i {
+    padding-top: 5%;
+    color: #fdc800;
+}
+
+.rating_div {
+    width: 50%;
+    margin-bottom: 10%;
+    float: left;
+}
+
+.rating_div i {
+    padding-top: 5%;
+    color: #fdc800;
+}
+
+/* banner */
+.bg1 {
+    margin: 0;
+    padding: 0;
+    background-image: url(slider_bg_1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    height: 500px;
+}
+
+
+/* .res {
+    position: absolute;
+    top: 300px;
+    /* left: 150px;
+} */
+
+
+@media only screen and (max-width:1199px) {
+    .res {
+        position: absolute;
+        top: 300px;
+        left: 10px;
+    }
+}
+
+
+.spanofskill {
+    font-weight: 700;
+    font-size: larger;
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .res {
+        position: absolute;
+        top: 300px;
+        left: 90px;
+    }
+}
+
+@media only screen and (min-width:1025px) {
+    .res {
+        position: absolute;
+        top: 300px;
+        left: 140px;
+    }
+}
+
+
+
+/* @media only screen and (max-width:1200px) {
+    .res {
+        position: absolute;
+        top: 300px;
+        left: 150px;
+    }
+} */
+
+.topbar {
+
+    background-color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .btnhide {
+        display: none;
+    }
+}
+
+/* .active{
+    background-image: url(slider_bg_1.webp);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+} */
+
+@media only screen and (min-width: 575px) {
+    .sologoo {
+        text-align: center;
+        padding: 14px;
+        padding-right: 100px;
+
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .logo {
+        text-align: center;
+    }
+}
+
+/* @media only screen and (min-width: 576px) {
+    .phoneno {
+        margin-right: 130px;
+    }
+} */
+
+/* @media only screen and (min-width: 991px) {
+    .phoneno {
+        text-align: center;
+    }
+} */
+
+/* @media screen {
+    .phoneno {
+        text-align: center;
+    }
+} */
+
+/* @media only screen and (max-width: 990px) and (min-width:575) {
+    .phoneno {
+        text-align: end;
+    }
+} */
+
+.phoneno {
+    color: white;
+    margin-top: 16px;
+}
+
+.sologo {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.logo img {
+    width: 250px;
+}
+
+.course_tech {
+    max-width: 51px;
+    margin-right: 15px;
+    float: left;
+}
+
+.btnd {
+
+    padding: 16px 35px;
+    background-color: #fdc800;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    background-image: -webkit-linear-gradient(left, #133282, #f54b8a);
+    letter-spacing: 0px;
+    border-radius: 30px 5px 5px;
+    transition: 0.3s;
+}
+
+.hover_cls {
+    position: relative;
+    border: 1px solid #dedfe2;
+    margin-right: 2px;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px lightgray;
+}
+
+.courses-content {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 27px;
+    padding-bottom: 24px;
+}
+
+.courses-heading h1 {
+    font-size: 22px;
+    line-height: 1;
+    margin: 0;
+    color: #002147;
+    margin-top: 26px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 15px;
+    margin-bottom: 19px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+
+
+.img {
+    background-image: url(bussiness.webp);
+}
+
+.box1 {
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.356);
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    border-radius: 20px;
+}
+
+.box2 {
+    border: 2px solid black;
+}
+
+.box3 {
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* {box-sizing: border-box;} */
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    /* position: fixed; */
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+/* The popup form - hidden by default */
+/* .form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  border: none;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+} */
+
+/* .form-popup {
+    display: none;
+} */
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 800px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+/* Full-width input fields */
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+
+
+.got {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.closoo {
+    position: absolute;
+    left: 90%;
+    bottom: 90%;
+}
+
+
+
+/* .popup-box {
+    width:400px;
+    padding:70px;
+    transform:translate(-50%, -50%) scale(0.5);
+    position:absolute;
+    top:50%;
+    left:50%;
+    box-shadow:0px 2px 16px rgba(0,0,0,0.5);
+    border-radius:3px;
+    background:#fff;
+    text-align:center;
+}
+ */
+
+
+
+
+ 
+ /* ------------------------------------------------------------------------------------- */
+
+
+
+
+
+ .popups .overlay{
+    /* position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7); */
+    z-index: 1;
+    display: none;
+
+}
+
+.popups .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    /* background: #fff;
+    width: 450px; */
+    height: 220px;
+    z-index: 2;
+    /* text-align: center; */
+    /* padding: 20px; */
+    /* box-sizing: border-box; */
+}
+
+.popups .closebtn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 39px;
+    height: 30px;
+    /* background:#222; */
+    color: #222;
+    /* font-size: 250px;
+    font-weight: 600;
+    line-height: 30px; */
+    text-align: center;
+    border-radius: 50%;
+}
+
+.popups.active .overlay{
+    display: block;
+}
+
+.popups.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+
+}
